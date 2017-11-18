@@ -36,7 +36,7 @@ ASP.NET Core 提供下列優點：
 * 用於建置 Web UI 和 Web API 的統一劇本。
 * 整合[現代化的用戶端架構](xref:client-side/index)和開發工作流程。
 * 雲端就緒、以環境為基礎的[組態系統](xref:fundamentals/configuration)。
-* 內建的[相依性插入](xref:fundamentals/dependency-injection)。
+* 內建的[相依性注入](xref:fundamentals/dependency-injection)。
 * 輕量型、高效能且模組化的 HTTP 要求管線。
 * 能夠在 IIS 上裝載，或自我裝載於您自己的處理序。
 * 可以在 [.NET Core](https://docs.microsoft.com/dotnet/articles/standard/choosing-core-framework-server) 上執行，其支援真正的並存應用程式版本控制。
@@ -54,7 +54,7 @@ ASP.NET Core MVC 提供了一些功能，可協助您建置 [Web API](xref:tutor
 * [Razor 頁面](xref:mvc/razor-pages/index) (2.0 中的新功能) 是以頁面為基礎的程式設計模型，可讓建置 Web UI 更容易且更具工作效率。
 * [Razor 語法](xref:mvc/views/razor)提供了適用於 [Razor 頁面](xref:mvc/razor-pages/index)和 [MVC 檢視](xref:mvc/views/overview)的高效率語言。
 * [標記協助程式](xref:mvc/views/tag-helpers/intro)可啟用伺服器端程式碼，以參與建立和轉譯 Razor 檔案中的 HTML 元素。
-* [多個資料格式和內容交涉](mvc/models/formatting.md)的內建支援可讓您的 Web API 連線到各種用戶端，包括瀏覽器和行動裝置。
+* [多種資料格式和內容交涉](mvc/models/formatting.md)的內建支援可讓您的 Web API 連線到各種用戶端，包括瀏覽器和行動裝置。
 * [模型繫結](xref:mvc/models/model-binding)會自動將 HTTP 要求中的資料對應至動作方法參數。
 * [模型驗證](xref:mvc/models/validation)會自動執行用戶端和伺服器端驗證。
 
